@@ -120,4 +120,9 @@
         displayAllStudent()
     End Sub
 
+    Private Sub StudentListForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'IhsanTuitionCenterDbDataSet.student' table. You can move, or remove it, as needed.
+        Me.StudentTableAdapter.Fill(Me.IhsanTuitionCenterDbDataSet.student)
+
+    End Sub
 End Class
