@@ -119,4 +119,8 @@
     Private Sub displayAllButton_Click(sender As Object, e As EventArgs) Handles displayAllButton.Click
         displayAllStudent()
     End Sub
+
+    Private Sub StudentDataGridView_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles StudentDataGridView.CellContentClick
+
+    End Sub
 End Class
